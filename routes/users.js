@@ -6,7 +6,7 @@ var router = express.Router();
 /* GET users listing. */
 router.get('/', function(req, res, next) {
   //Send response back
-  res.json({message: 'respond with a resource'});
+  res.json({message: 'Hello World'});
 });
 
 //export the router with the configured routes.
