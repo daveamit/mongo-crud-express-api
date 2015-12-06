@@ -1,6 +1,6 @@
 //Fetches express module
 var express = require('express');
-//creates routes, using which we'll define our routes
+//creates router, using which we'll define our routes
 var router = express.Router();
 
 /* GET users listing. */
